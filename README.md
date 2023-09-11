@@ -1,6 +1,6 @@
 ## alioth-mes
 
-尝试使用 **electron-ite** + Vue 搭建 **MES** 系统. 估计会踩很多坑,希望别太监.
+尝试使用 **electron-vite** + Vue 搭建 **MES** 系统. 估计会踩很多坑,希望别太监.
 
 ---
 
