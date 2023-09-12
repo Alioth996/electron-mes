@@ -12,7 +12,9 @@
     "paths": {
       "@renderer/*": [
         "src/renderer/src/*"
-      ]
+      ],
+      "@/*":["/src/renderer/src/*"],
+      "@api/*":["/src/renderer/src/api/*"]
     }
   }
 }
