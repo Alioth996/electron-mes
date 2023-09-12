@@ -1,5 +1,5 @@
 <template>
-    <div flex-1 flex items-center justify-center bg="#ffffff10" p-x-15px>
+    <div flex-1 flex items-center justify-center bg="#ffffff20" p-x-15px>
         <el-form ref="formRef" :model="LoginForm" size="large" w-full>
             <el-form-item prop="employeeID" :rules="[
                 { required: true },

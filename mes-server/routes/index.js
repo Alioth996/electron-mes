@@ -18,8 +18,10 @@ router.get('/qr_code/generate', async (req, res) => {
   return res.json({
     code: 200,
     message: 'success',
-    qrcode_id: uuid,
-    qrcode_img: dataUrl
+    result: {
+      qrcode_id: uuid,
+      qrcode_img: dataUrl
+    }
   })
 })
 
